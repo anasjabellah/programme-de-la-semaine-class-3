@@ -398,6 +398,11 @@ body{
 }
 
 
+.sercal1{
+    display: none;
+}
+
+
 
 
 @media only screen and (min-width: 700px) and (max-width: 1180px) {
@@ -445,6 +450,7 @@ body{
         align-items: center;
         justify-content: end;
         padding: 15px;
+        display: block;
     }
 
     .sercal1 i{
@@ -560,6 +566,7 @@ body{
         align-items: center;
         justify-content: end;
         padding: 15px;
+        display: block;
     }
 
     .sercal1 i{
