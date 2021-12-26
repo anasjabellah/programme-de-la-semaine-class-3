@@ -96,21 +96,16 @@ body{
 }
 
 
-/* .Thursday{
-    background-color: #483d8b;
-} */
-
-
 .Friday{
     background-color: #ee7373;
     color: white;
 }
 .Saturday{
-    background-color: #f1158a;
+    background-color: #7a3ae0;
     color: white;
 }
 .Sunday{
-    background-color: fuchsia;
+    background-color: rgb(240, 118, 48);
     color: white;
 }
 .muted{
