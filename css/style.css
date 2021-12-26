@@ -634,4 +634,7 @@ body{
         margin: 44px 0 0 0;
     }
 
+    .cart-list {
+        width: 80%;
+    }
 }
