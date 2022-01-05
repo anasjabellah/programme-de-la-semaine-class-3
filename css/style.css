@@ -177,6 +177,17 @@ body{
     margin: 0 auto;
 }
 
+.contener-lyout{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.content-re-left{
+    width: 50%;
+}
+
 .content-lyout-desc{
     width: 100%;
     height: auto;
@@ -222,8 +233,9 @@ body{
 }
 
 .cart{
-    width: 30%;
+    width: 100%;
     height: 100%;
+    margin-bottom: 55px;
     background-color: #c0aed6;
     border-radius: 24px;
     box-shadow:  21px 21px 42px #9b9b9b,
@@ -323,7 +335,7 @@ body{
 /*  list-day list-day list-day */
 
 .list-day{
-    margin-top: 70px ;
+    width: 40%;
 }
 
 .title-list{
@@ -339,7 +351,7 @@ body{
 }
 
 .content-list-day{
-    margin-top: 60px;
+    margin-top: 20px;
 }
 
 .content-list-day h1{
@@ -363,6 +375,17 @@ body{
     border-radius: 12px;
 }
 
+.timers{
+    font-size: 15px;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.timer-now p{
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
 .now{
     margin-bottom: 50px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
@@ -378,13 +401,25 @@ body{
     color: rgb(31, 31, 31);
 }
 
+
+.timer-now{
+    margin-top: -34px;
+    margin-left: 10px;
+    margin-bottom: 44px;
+}
+
+.gaincart{
+    background-color: gainsboro;
+    color: black;
+}
+
 .now::before{
     position: absolute;
     top: 30px;
     left: -43px;
     content: "";
     width: 2px;
-    height: 130px;
+    height: 164px;
     border-left: 2px dashed  gray;
 }
 
